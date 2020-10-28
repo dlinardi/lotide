@@ -21,7 +21,7 @@ const countLetters = function(string) {
       result[char] = 1;
     }
   }
-  console.log(result);
+
   return result;
 };
 
