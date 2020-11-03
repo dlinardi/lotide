@@ -8,6 +8,8 @@ const letterPositions = require('./letterPositions');
 const map = require('./map');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
+const countLetters = require('./countLetters');
+const countOnly = require('./countOnly');
 
 module.exports = {
   head: head,
@@ -19,5 +21,7 @@ module.exports = {
   letterPositions: letterPositions,
   map: map,
   takeUntil: takeUntil,
-  without: without
+  without: without,
+  countLetters: countLetters,
+  countOnly: countOnly
 };
