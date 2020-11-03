@@ -10,6 +10,8 @@ const takeUntil = require('./takeUntil');
 const without = require('./without');
 const countLetters = require('./countLetters');
 const countOnly = require('./countOnly');
+const eqArrays = require('./eqArrays');
+const eqObjects = require('./eqObjects');
 
 module.exports = {
   head,
@@ -23,5 +25,7 @@ module.exports = {
   takeUntil,
   without,
   countLetters,
-  countOnly
+  countOnly,
+  eqArrays,
+  eqObjects
 };
