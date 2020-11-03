@@ -1,7 +1,7 @@
 {
   "name": "@dlinardi/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini clone of the Lodash library. (For educational purposes only)",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/dlinardi/lotide.git"
   },
-  "author": "",
+  "author": {
+    "name": "David Linardi",
+    "email": "dlinardi98@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dlinardi/lotide/issues"
